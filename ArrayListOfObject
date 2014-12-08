@@ -145,9 +145,9 @@ public class ArrayList {
 	
 	
 	private Object [] auxAdd (Object content, int position) {
-        Object [] expanded = new Object[position+1];
-        System.arraycopy(this.array,0,expanded,0,this.array.length);
-        expanded[position] = content;
-        return expanded;
+	        Object [] expanded = new Object[position+1];
+	        System.arraycopy(this.array,0,expanded,0,this.array.length);
+	        expanded[position] = content;
+	        return expanded;
 	}
 }
