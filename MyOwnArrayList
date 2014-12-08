@@ -42,7 +42,6 @@ public class ArrayList {
 			if ( this.array[i].equals(content) ) {
 				return true;
 			}
-			
 		}
 		
 		return false;
