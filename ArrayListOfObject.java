@@ -112,7 +112,7 @@ public class ArrayList {
 	@Override
 	public String toString () {
 		if ( this.isEmpty() ) {
-		    return "ArrayList vacío";
+		    return "The ArrayList is Empty";
 		}
 		
 		return auxToString ();
